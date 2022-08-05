@@ -1,8 +1,17 @@
 .info{
     background-color: aliceblue;
     color: rgb(42, 109, 234);
+    height: 60vh;
 }
 
 h2, h3 {
     text-align: center;
+}
+
+img{
+    padding-left: 25vw;
+}
+
+footer, header{
+    height: 20vh;
 }
