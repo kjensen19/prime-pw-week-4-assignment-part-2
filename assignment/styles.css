@@ -1,11 +1,18 @@
+body{
+    margin: none;
+    display: flex;
+    flex-direction: column;
+}
 .info{
     background-color: aliceblue;
     color: rgb(42, 109, 234);
-    height: 60vh;
+    margin: none;
+    min-height: 100vh;
 }
 
 h2, h3 {
     text-align: center;
+    margin: none;
 }
 
 img{
@@ -13,5 +20,6 @@ img{
 }
 
 footer, header{
-    height: 20vh;
+    height: 15vh;
+    margin-top: auto;
 }
