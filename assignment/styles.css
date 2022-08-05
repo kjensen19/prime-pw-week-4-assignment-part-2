@@ -2,3 +2,7 @@
     background-color: aliceblue;
     color: rgb(42, 109, 234);
 }
+
+h2, h3 {
+    text-align: center;
+}
