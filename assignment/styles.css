@@ -45,7 +45,9 @@ h2 {
 }
 
 h3 {
-    padding-top: 6vh;
+    background-color: rgb(207, 85, 41, 50%);
+    box-shadow: 3px 3px 2px orangered;
+    color: rgb(21, 96, 234)
     
 }
 
