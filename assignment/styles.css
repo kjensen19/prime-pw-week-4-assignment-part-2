@@ -1,10 +1,11 @@
-body{
+body {
     margin: none;
     display: flex;
     flex-direction: column;
     width: auto;
 }
-.info{
+
+.info { 
     background-color: aliceblue;
     color: rgb(42, 109, 234);
     margin: none;
@@ -38,31 +39,32 @@ span::before {
     90% {filter: blur(0px)}
   }
 
-
-h2{
+h2 {
     text-align: center;
     margin: none;
 }
-h3{
+
+h3 {
     padding-top: 6vh;
     
 }
-h2{
+
+h2 {
     padding: 3vh 0 6vh 0;
 }
 
-img{
+img {
     border: 4px solid darkorchid;
     border-radius: 25%;
 }
 
-footer, header{
+footer, header {
     height: 12vh;
     margin-top: auto;
     color: darkorchid;
     background-color: blanchedalmond;
 }
 
-footer{
+footer {
     text-align: end;
 }
