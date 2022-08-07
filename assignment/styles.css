@@ -63,6 +63,7 @@ footer, header {
     margin-top: auto;
     color: darkorchid;
     background-color: blanchedalmond;
+    width: 100vw;
 }
 
 footer {
