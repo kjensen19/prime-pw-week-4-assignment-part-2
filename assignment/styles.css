@@ -17,6 +17,28 @@ body{
     
 }
 
+span::before {
+    content: "Kyle Roger Jensen";
+    animation-name: blurName;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+}
+
+@keyframes blurName {
+    0% {filter: blur(0px)}
+    10% {filter: blur(9px)}
+    20% {content: "Kyle"}
+    30% {filter: blur(0px)}
+    40% {filter: blur(9px)}
+    50% {content: "Kyle Roger"}
+    60% {filter: blur(0px)}
+    70% {filter: blur(9px)}     
+    80% {content: "Kyle Roger Jensen"}
+    90% {filter: blur(0px)}
+  }
+
+
 h2, h3 {
     text-align: center;
     margin: none;
